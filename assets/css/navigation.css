@@ -13,7 +13,7 @@ nav {
   position: fixed;
   width: 100%;
   transition: all 0.5s;
-  background: rgba(190, 190, 190, 0.45);
+  background: #FFD48C
 }
 
 nav.fade-in {
@@ -21,7 +21,7 @@ nav.fade-in {
 }
 
 .logo {
-  color: rgb(0, 132, 255);
+  color: #CC7929;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   font-size: 2.4rem;
@@ -38,7 +38,7 @@ nav.fade-in {
   list-style: none;
 }
 .nav-links a {
-  color: rgb(0, 132, 255);
+  color: #CC7929;
   text-decoration: none;
   letter-spacing: 0.3rem;
   font-weight: bold;
@@ -76,7 +76,7 @@ nav.fade-in {
     right: 0;
     height: 92vh;
     top: 8vh;
-    background: rgba(190, 190, 190, 0.35);
+    background: #8F919D
     display: flex;
     flex-direction: column;
     align-items: center;
