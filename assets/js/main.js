@@ -1,6 +1,5 @@
 const navSlide = () => {
   const burger = document.querySelector(".burger");
-  const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
 
   // Toggle Nav
@@ -24,14 +23,13 @@ const navSlide = () => {
 
 navSlide();
 
+const nav = document.querySelector(".nav-links");
 let scrollpos = window.scrollY;
 const header = document.querySelector("nav");
 const logo = document.querySelector(".logo");
 const links = document.querySelectorAll(".nav-link");
+const burgerLines = document.querySelectorAll(".line");
 const header_height = header.offsetHeight;
-
-// const add_class_on_scroll = () => header.classList.add("fade-in");
-// const remove_class_on_scroll = () => header.classList.remove("fade-in");
 
 function add_class_on_scroll(el, cl) {
   const element = el;
@@ -49,15 +47,22 @@ window.addEventListener("scroll", function() {
   if (scrollpos >= header_height) {
     add_class_on_scroll(header, "fade-in");
     add_class_on_scroll(logo, "text-fade-in");
+    add_class_on_scroll(nav, "nav-links-dark");
     for (let i = 0; i < links.length; i++) {
       add_class_on_scroll(links[i], "text-fade-in");
+    }
+    for (let i = 0; i < burgerLines.length; i++) {
+      add_class_on_scroll(burgerLines[i], "background-fade-in");
     }
   } else {
     remove_class_on_scroll(header, "fade-in");
     remove_class_on_scroll(logo, "text-fade-in");
+    remove_class_on_scroll(nav, "nav-links-dark");
     for (let i = 0; i < links.length; i++) {
       remove_class_on_scroll(links[i], "text-fade-in");
     }
+    for (let i = 0; i < burgerLines.length; i++) {
+      remove_class_on_scroll(burgerLines[i], "background-fade-in");
+    }
   }
-  // console.log(scrollpos);
 });
