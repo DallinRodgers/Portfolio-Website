@@ -13,11 +13,11 @@ nav {
   position: fixed;
   width: 100%;
   transition: all 0.5s;
-  background: #FFD48C
+  background: #FFD48C;
 }
 
 nav.fade-in {
-  background: #4879ff;
+  background: #CC7929;
 }
 
 .logo {
@@ -32,6 +32,7 @@ nav.fade-in {
   display: flex;
   width: 35%;
   justify-content: space-around;
+  background: #FFD48C;
 }
 
 .nav-links li {
@@ -46,7 +47,7 @@ nav.fade-in {
   padding: 1rem;
 }
 .text-fade-in {
-  color: rgb(233, 233, 233) !important;
+  color: #FFD48C !important;
 }
 .background-fade-in {
   background: rgb(233, 233, 233) !important;
@@ -60,7 +61,7 @@ nav.fade-in {
   width: 2.5rem;
   margin: 0.5rem;
   height: 0.3rem;
-  background: rgb(0, 132, 255);
+  background: #CC7929;
   transition: all 0.3s ease;
 }
 
@@ -85,7 +86,7 @@ nav.fade-in {
     transition: transform 0.5s ease-in;
   }
   .nav-links-dark {
-    background: #86a6ff;
+    background: #CC7929;
   }
   .nav-links li {
     opacity: 0;
