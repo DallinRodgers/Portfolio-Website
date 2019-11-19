@@ -1,0 +1,9 @@
+html {
+  font-size: 10px;
+}
+body {
+  min-height: 3000px;
+}
+#about-banner {
+  padding-top: 8vh;
+}
