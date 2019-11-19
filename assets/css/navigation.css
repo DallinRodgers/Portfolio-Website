@@ -13,6 +13,7 @@ nav {
   position: fixed;
   width: 100%;
   transition: all 0.5s;
+  background: rgba(190, 190, 190, 0.45);
 }
 
 nav.fade-in {
@@ -47,6 +48,9 @@ nav.fade-in {
 .text-fade-in {
   color: rgb(233, 233, 233) !important;
 }
+.background-fade-in {
+  background: rgb(233, 233, 233) !important;
+}
 .burger {
   display: none;
   cursor: pointer;
@@ -72,13 +76,16 @@ nav.fade-in {
     right: 0;
     height: 92vh;
     top: 8vh;
-    background: #86a6ff;
+    background: rgba(190, 190, 190, 0.35);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 75%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+  }
+  .nav-links-dark {
+    background: #86a6ff;
   }
   .nav-links li {
     opacity: 0;
