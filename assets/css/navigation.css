@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 nav {
   display: flex;
   justify-content: space-around;
@@ -13,16 +12,17 @@ nav {
   position: fixed;
   width: 100%;
   transition: all 0.5s;
-  background: #ffd48c;
-  border-bottom: 0.5rem solid #cc7929;
+  background: #bfbfbf;
+  border-bottom: 0.5rem solid #737373;
 }
 
 nav.fade-in {
-  background: #cc7929;
+  background: #737373;
+  border-bottom: 0.5rem solid #bfbfbf;
 }
 
 .logo {
-  color: #cc7929;
+  color: #bf6860;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   font-size: 2.4rem;
@@ -39,7 +39,7 @@ nav.fade-in {
   list-style: none;
 }
 .nav-links a {
-  color: #cc7929;
+  color: #bf6860;
   text-decoration: none;
   letter-spacing: 0.3rem;
   font-weight: bold;
@@ -47,10 +47,10 @@ nav.fade-in {
   padding: 1rem;
 }
 .text-fade-in {
-  color: #ffd48c !important;
+  color: #f2f2f2 !important;
 }
 .background-fade-in {
-  background: #ffd48c !important;
+  background: #f2f2f2 !important;
 }
 .burger {
   display: none;
@@ -61,7 +61,7 @@ nav.fade-in {
   width: 2.5rem;
   margin: 0.5rem;
   height: 0.3rem;
-  background: #cc7929;
+  background: #bf6860;
   transition: all 0.3s ease;
 }
 
@@ -77,7 +77,7 @@ nav.fade-in {
     right: 0;
     height: 92vh;
     top: 8vh;
-    background: #ffd48c;
+    background: #bfbfbf;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +86,7 @@ nav.fade-in {
     transition: transform 0.5s ease-in;
   }
   .nav-links-dark {
-    background: #cc7929;
+    background: #737373;
   }
   .nav-links li {
     opacity: 0;
