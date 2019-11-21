@@ -7,7 +7,6 @@ body {
 }
 a {
   text-decoration: none;
-  color: #bf6860;
 }
 #about-banner {
   padding-top: 8vh;
@@ -115,8 +114,77 @@ a {
 .icon {
   font-size: 2.4rem;
   margin: 1rem;
+  color: #bf6860;
+  transition: color 0.5s;
+}
+.icon:hover {
+  color: #f2f2f2;
 }
 .footer-text span {
   font-size: 1.8rem;
   color: #f2f2f2;
+}
+
+@media screen and (min-width: 160rem) {
+  .banner-title {
+    font-size: 20rem;
+  }
+  .banner-text {
+    font-size: 6rem;
+  }
+  .banner-resources a {
+    font-size: 4rem;
+  }
+  #about-title {
+    font-size: 12rem;
+  }
+  #about-banner {
+    min-height: calc(100vh - 103rem);
+  }
+  .professional-text h3,
+  .personal-text h3 {
+    font-size: 6.5rem;
+    border-bottom: 1rem solid #bf6860;
+  }
+  .professional-text p,
+  .personal-text p {
+    font-size: 5rem;
+  }
+  .icon {
+    font-size: 4rem;
+  }
+  .footer-text span {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 110rem) {
+  #about-text {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 60rem) {
+  .banner-title {
+    font-size: 8rem;
+  }
+  #about-title {
+    font-size: 6rem;
+  }
+  .banner-resources a {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 40rem) {
+  .banner-title {
+    font-size: 6rem;
+  }
+  .banner-text {
+    font-size: 2.5rem;
+  }
+  #about-banner {
+    min-height: 50rem;
+  }
+  #about-title {
+    font-size: 4rem;
+  }
 }
