@@ -8,12 +8,9 @@ body {
 a {
   text-decoration: none;
 }
-#about-banner {
+#about-banner,
+#project-banner {
   padding-top: 8vh;
-  min-height: 70rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .banner-content {
   display: flex;
@@ -53,59 +50,7 @@ a {
   background: #737373;
   color: #f2f2f2;
 }
-#about-section {
-  background: rgb(191, 191, 191);
-  background: linear-gradient(
-    180deg,
-    rgba(242, 242, 242, 1) 25%,
-    rgba(191, 191, 191, 1) 45%,
-    rgba(115, 115, 115, 1) 70%
-  );
-}
 
-#about-title {
-  font-size: 7rem;
-  text-align: center;
-  padding: 2.5rem;
-  color: #bf6860;
-}
-#about-text {
-  display: flex;
-}
-#about-personal,
-#about-professional {
-  flex-basis: 50%;
-  padding: 1rem;
-}
-#about-professional,
-#about-personal {
-  padding: 3.5rem;
-}
-.professional-text,
-.personal-text {
-  background: #f2f2f2;
-  padding: 1.5rem;
-  min-height: 40rem;
-  border-radius: 0.5rem;
-  -webkit-box-shadow: 5px 5px 17px 0px rgba(0, 0, 0, 0.56);
-  -moz-box-shadow: 5px 5px 17px 0px rgba(0, 0, 0, 0.56);
-  box-shadow: 5px 5px 17px 0px rgba(0, 0, 0, 0.56);
-}
-.professional-text h3,
-.personal-text h3 {
-  font-size: 3.5rem;
-  border-bottom: 0.2rem solid #bf6860;
-  margin-bottom: 1.5rem;
-  display: inline-block;
-}
-.personal-text h3 {
-  border-bottom: 0.2rem solid #bf6860;
-}
-.professional-text p,
-.personal-text p {
-  font-size: 2.4rem;
-  padding: 1rem;
-}
 .footer-text {
   padding: 2.5rem;
   text-align: center;
@@ -135,21 +80,6 @@ a {
   .banner-resources a {
     font-size: 4rem;
   }
-  #about-title {
-    font-size: 12rem;
-  }
-  #about-banner {
-    min-height: calc(100vh - 103rem);
-  }
-  .professional-text h3,
-  .personal-text h3 {
-    font-size: 6.5rem;
-    border-bottom: 1rem solid #bf6860;
-  }
-  .professional-text p,
-  .personal-text p {
-    font-size: 5rem;
-  }
   .icon {
     font-size: 4rem;
   }
@@ -157,17 +87,9 @@ a {
     font-size: 4rem;
   }
 }
-@media screen and (max-width: 110rem) {
-  #about-text {
-    flex-direction: column;
-  }
-}
 @media screen and (max-width: 60rem) {
   .banner-title {
     font-size: 8rem;
-  }
-  #about-title {
-    font-size: 6rem;
   }
   .banner-resources a {
     display: block;
@@ -180,11 +102,5 @@ a {
   }
   .banner-text {
     font-size: 2.5rem;
-  }
-  #about-banner {
-    min-height: 50rem;
-  }
-  #about-title {
-    font-size: 4rem;
   }
 }
