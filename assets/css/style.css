@@ -8,6 +8,9 @@ body {
 a {
   text-decoration: none;
 }
+.container {
+  max-width: 120rem;
+}
 #about-banner,
 #project-banner {
   padding-top: 8vh;
