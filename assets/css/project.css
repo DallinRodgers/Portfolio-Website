@@ -1,3 +1,39 @@
 h1 {
   margin: 2.5rem;
 }
+.projects {
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.project {
+  display: flex;
+  font-size: 2.2rem;
+  margin: 2.5rem 0;
+}
+.project-sample {
+  padding: 0.5rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #737373;
+}
+.project-giph {
+  min-width: 15rem;
+}
+h3 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.skills-used {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.skill {
+  padding: 0.5rem 1.5rem;
+}
+.description {
+  padding: 0.5rem 0;
+}
