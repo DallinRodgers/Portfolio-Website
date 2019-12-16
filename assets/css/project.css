@@ -40,3 +40,24 @@ h3 {
 .description {
   padding: 0.5rem 0;
 }
+@media screen and (max-width: 60rem) {
+  .project {
+    flex-direction: column;
+  }
+  .project-sample {
+    margin: 1.5rem;
+  }
+  .project-img {
+    margin: 1.5rem;
+  }
+}
+@media screen and (max-width: 40rem) {
+  .project-img {
+    max-width: 40rem;
+  }
+}
+@media screen and (max-width: 30rem) {
+  .project-img {
+    max-width: 25rem;
+  }
+}
