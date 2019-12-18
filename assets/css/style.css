@@ -30,6 +30,7 @@ a {
 }
 .banner-title {
   font-size: 10rem;
+  text-align: center;
   font-family: "Noto Serif", serif;
   background-image: linear-gradient(
     180deg,

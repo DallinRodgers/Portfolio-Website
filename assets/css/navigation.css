@@ -108,6 +108,7 @@ nav.fade-in {
     right: 0;
     height: 92vh;
     top: 8vh;
+    padding-bottom: 8.5rem;
     background: #bfbfbf;
     display: flex;
     flex-direction: column;
