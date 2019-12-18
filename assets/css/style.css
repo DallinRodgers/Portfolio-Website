@@ -12,7 +12,8 @@ a {
   max-width: 120rem;
 }
 #about-banner,
-#project-banner {
+#project-banner,
+#contact-banner {
   padding-top: 8vh;
 }
 .banner-content {
