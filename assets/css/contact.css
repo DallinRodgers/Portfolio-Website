@@ -1,0 +1,19 @@
+.contact {
+  display: flex;
+}
+.contact-info,
+.contact-map {
+  flex-basis: 50%;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin: 2rem 5.5rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 5px 5px 17px 0px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 5px 5px 17px 0px rgba(0, 0, 0, 0.56);
+  box-shadow: 5px 5px 17px 0px rgba(0, 0, 0, 0.56);
+}
