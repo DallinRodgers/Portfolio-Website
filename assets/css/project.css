@@ -74,6 +74,6 @@ h1 {
 }
 @media screen and (max-width: 30rem) {
   .project-img {
-    max-width: 20rem;
+    max-width: 80%;
   }
 }
