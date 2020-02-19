@@ -7,22 +7,23 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  height: 8vh;
+  min-height: 2rem;
+  min-width: 30rem;
   font-family: "Poppins", sans-serif;
   position: fixed;
   width: 100%;
   transition: all 0.5s;
-  background: #bfbfbf;
-  border-bottom: 0.5rem solid #737373;
+  background: #91aab4;
+  border-bottom: 0.5rem solid #cbdbd7;
 }
 
-nav.fade-in {
-  background: #737373;
-  border-bottom: 0.5rem solid #bfbfbf;
-}
+/* nav.fade-in {
+  background: #73553c;
+} */
 
 .logo {
-  color: #bf6860;
+  color: #193441;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   font-size: 2.4rem;
@@ -39,7 +40,7 @@ nav.fade-in {
   display: flex;
 }
 .nav-links a {
-  color: #bf6860;
+  color: #193441;
   text-decoration: none;
   letter-spacing: 0.3rem;
   font-weight: bold;
@@ -54,7 +55,7 @@ nav.fade-in {
   left: 0;
   width: 100%;
   height: 0.3rem;
-  background: #bf6860;
+  background: #193441;
   transform: scaleX(0);
   transition: all 0.5s;
   transform-origin: left;
@@ -69,7 +70,7 @@ nav.fade-in {
   left: 0;
   width: 100%;
   height: 0.3rem;
-  background: #f2f2f2 !important;
+  background: #f2e9ce !important;
   transform: scaleX(0);
   transition: all 0.5s;
   transform-origin: left;
@@ -77,12 +78,12 @@ nav.fade-in {
 .active:hover::after {
   transform: scaleX(1);
 }
-.text-fade-in {
+/* .text-fade-in {
   color: #f2f2f2 !important;
-}
-.background-fade-in {
+} */
+/* .background-fade-in {
   background: #f2f2f2 !important;
-}
+} */
 .burger {
   display: none;
   cursor: pointer;
@@ -92,7 +93,7 @@ nav.fade-in {
   width: 2.5rem;
   margin: 0.5rem;
   height: 0.3rem;
-  background: #bf6860;
+  background: #193441;
   transition: all 0.3s ease;
 }
 
@@ -109,7 +110,7 @@ nav.fade-in {
     height: 92vh;
     top: 8vh;
     padding-bottom: 8.5rem;
-    background: #bfbfbf;
+    background: #91aab4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,9 +118,9 @@ nav.fade-in {
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
-  .nav-links-dark {
+  /* .nav-links-dark {
     background: #737373;
-  }
+  } */
   .nav-links li {
     opacity: 0;
   }

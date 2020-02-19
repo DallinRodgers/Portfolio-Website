@@ -1,27 +1,7 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
 #about-section {
-  background: rgb(191, 191, 191);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(25%, rgba(242, 242, 242, 1)),
-    color-stop(45%, rgba(191, 191, 191, 1)),
-    color-stop(70%, rgba(115, 115, 115, 1))
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(242, 242, 242, 1) 25%,
-    rgba(191, 191, 191, 1) 45%,
-    rgba(115, 115, 115, 1) 70%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(242, 242, 242, 1) 25%,
-    rgba(191, 191, 191, 1) 45%,
-    rgba(115, 115, 115, 1) 70%
-  );
+  background: #193441;
 }
 #about-banner {
   padding-top: 8vh;
@@ -37,28 +17,44 @@
   align-items: center;
 }
 #about-title {
-  font-size: 7rem;
+  font-size: 8.5rem;
   text-align: center;
-  padding: 2.5rem;
-  color: #bf6860;
+  padding: 1.5rem;
+  margin: 2rem;
+  color: #91aab4;
+  font-weight: 300;
+  border-bottom: 0.5rem solid #fcfff5;
+  display: inline-block;
 }
 #about-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
 }
-#about-personal,
+/* #about-personal,
 #about-professional {
   -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
   padding: 1rem;
-}
+} */
 #about-professional,
 #about-personal {
   padding: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.professional-img {
+  background: url("../img/about-professional.jpg") center center no-repeat;
+  min-width: 65rem;
+  margin-left: 1rem;
+  min-height: 20rem;
+  height: auto;
+  border-radius: 0.5rem;
 }
 .professional-text,
 .personal-text {
+  flex-basis: 60%;
   background: #f2f2f2;
   padding: 1.5rem;
   min-height: 40rem;
@@ -69,12 +65,12 @@
 .professional-text h3,
 .personal-text h3 {
   font-size: 3.5rem;
-  border-bottom: 0.2rem solid #bf6860;
+  border-bottom: 0.2rem solid #3e606f;
   margin-bottom: 1.5rem;
   display: inline-block;
 }
 .personal-text h3 {
-  border-bottom: 0.2rem solid #bf6860;
+  border-bottom: 0.2rem solid #3e606f;
 }
 .professional-text p,
 .personal-text p {
@@ -92,7 +88,7 @@
   .professional-text h3,
   .personal-text h3 {
     font-size: 6.5rem;
-    border-bottom: 1rem solid #bf6860;
+    border-bottom: 1rem solid #3e606f;
   }
   .professional-text p,
   .personal-text p {
