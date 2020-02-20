@@ -48,7 +48,7 @@
   background: url("../img/about-professional.jpg") center center no-repeat;
   min-width: 65rem;
   margin-left: 1rem;
-  min-height: 20rem;
+  min-height: 30rem;
   height: auto;
   border-radius: 0.5rem;
 }
@@ -95,12 +95,29 @@
     font-size: 5rem;
   }
 }
+@media screen and (max-width: 140rem) {
+  .professional-img {
+    min-width: 45rem;
+  }
+}
 @media screen and (max-width: 110rem) {
+  #about-title {
+    font-size: 6.5rem;
+  }
   #about-text {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  #about-professional,
+  #about-personal {
+  flex-direction: column;
+  }
+  .professional-img {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1.5rem;
   }
 }
 @media screen and (max-width: 60rem) {
