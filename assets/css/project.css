@@ -3,6 +3,14 @@
 h1 {
   margin: 2.5rem;
 }
+#pig-game {
+  background: url("../img/pig-game.jpg") no-repeat center;
+  background-size: cover;
+}
+#project-one {
+  background: url("../img/project-one.jpg") no-repeat center;
+  background-size: cover;
+}
 .projects {
   margin: 0 auto;
   padding: 1.5rem;
@@ -37,6 +45,8 @@ h1 {
 .project-img {
   max-width: 50rem;
   height: auto;
+  width: 40rem;
+  min-height: 30rem;
 }
 .skills-used {
   display: -webkit-box;
