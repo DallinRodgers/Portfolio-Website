@@ -112,7 +112,7 @@
   }
   #about-professional,
   #about-personal {
-  flex-direction: column;
+    flex-direction: column;
   }
   .professional-img {
     width: 100%;
@@ -124,6 +124,13 @@
   #about-title {
     font-size: 6rem;
   }
+  .professional-img {
+    min-width: 30rem;
+  }
+  .professional-text p,
+  .personal-text p {
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width: 40rem) {
   #about-banner {
@@ -131,5 +138,8 @@
   }
   #about-title {
     font-size: 4rem;
+  }
+  .professional-img {
+    min-width: 20rem;
   }
 }

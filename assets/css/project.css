@@ -81,6 +81,9 @@ h1 {
   .project-img {
     margin: 1.5rem;
   }
+  .description {
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width: 40rem) {
   .project-img {
