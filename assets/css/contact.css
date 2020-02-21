@@ -1,3 +1,14 @@
+body {
+  overflow: hidden;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+a {
+  color: #3e606f;
+}
 .contact {
   display: flex;
 }
@@ -26,12 +37,6 @@
 .contact-info ul li span {
   font-weight: 700;
   font-size: 3rem;
-}
-.map {
-  min-height: 35rem;
-  height: auto;
-  width: 100%;
-  background: url("../img/contact-map.jpg") top center;
 }
 @media screen and (max-width: 60rem) {
   .contact-info h3 {
