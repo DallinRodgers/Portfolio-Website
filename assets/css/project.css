@@ -11,6 +11,10 @@ h1 {
   background: url("../img/project-one.jpg") no-repeat center;
   background-size: cover;
 }
+#mineX {
+  background: url("../img/mineX.jpg") no-repeat center;
+  background-size: cover;
+}
 .projects {
   margin: 0 auto;
   padding: 1.5rem;
@@ -22,7 +26,7 @@ h1 {
   font-size: 2.2rem;
   margin: 2.5rem 0;
   padding-top: 1rem;
-  border-top: 0.25rem solid #bf6860;
+  border-top: 0.25rem solid #193441;
 }
 .project-sample {
   padding: 0.5rem;
@@ -40,18 +44,19 @@ h1 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #737373;
+  background: #91aab4;
 }
 .project-img {
   max-width: 50rem;
   height: auto;
   width: 40rem;
-  min-height: 30rem;
+  min-height: 35rem;
 }
 .skills-used {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
